@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:id="@+id/appimage"
+        android:src="@drawable/easyparkicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_below="@id/appimage"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:layout_height="60dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_your_email_address"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginRight="@dimen/margin_dimen"
+        android:hint="@string/enter_your_password"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:id="@+id/signin"
+        android:layout_height="60dp"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_in"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/signup"
+        android:background="@null"
+        android:layout_marginRight="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_below="@+id/signin"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_up"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="detail information"
+        android:id="@+id/detail"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/image"
+        android:layout_below="@+id/detail"
+        android:background="#a3a765"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/parkname"
+        android:background="#6c4fa3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/image"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/parkname"
+        android:background="#6c4fa3"
+        android:id="@+id/currentrooms" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:hint="Current Rooms Available"
+        android:id="@+id/newrooms"
+        android:inputType="number"
+        android:layout_below="@+id/currentrooms"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/currentrooms"
+        android:layout_toRightOf="@+id/newrooms"
+        android:background="#1b5928"
+        android:text="update"
+        android:id="@+id/update"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

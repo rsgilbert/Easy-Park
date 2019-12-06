@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "362000515016",
+    "firebase_url": "https://rs-easypark.firebaseio.com",
+    "project_id": "rs-easypark",
+    "storage_bucket": "rs-easypark.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362000515016:android:6c6bedfe726378e9",
+        "android_client_info": {
+          "package_name": "com.learning.one_pc.easypark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362000515016-ebh587qetuhb0uhot80bo14pql3vt6is.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learning.one_pc.easypark",
+            "certificate_hash": "46bcb0121c8373590ff6d7a82ae86707c01dda1f"
+          }
+        },
+        {
+          "client_id": "362000515016-48a627qb2lpjfin6eh35jmns9qk4p2q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUhWyQY-Y28wGDkshE8sjYGUVW0FAKdWs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362000515016-48a627qb2lpjfin6eh35jmns9qk4p2q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

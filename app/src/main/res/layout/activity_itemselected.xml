@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/imageview"
+        android:background="#9fab7c"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/listview"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+              android:layout_width="250dp"
+              android:layout_height="match_parent"
+              android:text="go to map"
+            android:layout_alignParentRight="true"
+              android:id="@+id/gotomap"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/gotomap"
+            android:layout_marginRight="20dp"
+            android:text="back"
+            android:id="@+id/back"/>
+    </RelativeLayout>
+</LinearLayout>

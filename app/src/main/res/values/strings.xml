@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Easy Park</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_up">Register with us </string>
+    <string name="resend_verification_link">resend verification link</string>
+    <string name="sign_in">sign in</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="radius_km">Search paramenter</string>
+</resources>
