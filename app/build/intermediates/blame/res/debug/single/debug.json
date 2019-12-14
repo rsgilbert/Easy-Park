@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
-        "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\9dd5b521720a2657b9887c52924fe0e7\\appcompat-1.0.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
         "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\9dd5b521720a2657b9887c52924fe0e7\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
+        "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\9dd5b521720a2657b9887c52924fe0e7\\appcompat-1.0.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
@@ -16,32 +16,32 @@
         "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\9dd5b521720a2657b9887c52924fe0e7\\appcompat-1.0.0\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
-        "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\9dd5b521720a2657b9887c52924fe0e7\\appcompat-1.0.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
         "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\9dd5b521720a2657b9887c52924fe0e7\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
+        "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\9dd5b521720a2657b9887c52924fe0e7\\appcompat-1.0.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_newparking.png.flat",
         "source": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\newparking.png"
     },
     {
-        "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\9dd5b521720a2657b9887c52924fe0e7\\appcompat-1.0.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\c2a8915371f0b5f5d455eaea1f9b84c1\\jetified-play-services-base-15.0.1\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+        "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\9dd5b521720a2657b9887c52924fe0e7\\appcompat-1.0.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\9dd5b521720a2657b9887c52924fe0e7\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\GilbertS\\.gradle\\caches\\transforms-2\\files-2.1\\c2a8915371f0b5f5d455eaea1f9b84c1\\jetified-play-services-base-15.0.1\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\GilbertS\\Downloads\\Compressed\\EasyPark\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",

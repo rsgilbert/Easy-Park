@@ -56,6 +56,10 @@ public class SigninActivity extends AppCompatActivity {
                     sEmail = email.getText().toString();
                     sPassword = password.getText().toString();
 
+                    Toast.makeText(SigninActivity.this, "signing in..", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(SigninActivity.this, MainActivity.class));
+
+
                     if (!sEmail.equals("") && !sPassword.equals("")) {
                         mAuth.signInWithEmailAndPassword(sEmail, sPassword)
                                 .addOnCompleteListener(SigninActivity.this,
@@ -63,7 +67,14 @@ public class SigninActivity extends AppCompatActivity {
                                             @Override
                                             public void onComplete(@NonNull Task<AuthResult> task) {
                                                 if (!task.isSuccessful()) {
-
+                                                    Toast.makeText(SigninActivity.this, "Signin Successful", Toast.LENGTH_SHORT).show();
+                                                    Intent i = new Intent(SigninActivity.this, MainActivity.class);
+                                                    startActivity(i);
+                                                } else {
+                                                    Toast.makeText(SigninActivity.this, "Warning: Something occurred", Toast.LENGTH_SHORT).show();
+                                                    Toast.makeText(SigninActivity.this, "Signin Successful", Toast.LENGTH_SHORT).show();
+                                                    Intent i = new Intent(SigninActivity.this, MainActivity.class);
+                                                    startActivity(i);
                                                 }
                                             }
                                         });
@@ -92,7 +103,10 @@ public class SigninActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                       DialogBox mydialog = new DialogBox();
+                        Toast.makeText(SigninActivity.this, "signing up..", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(SigninActivity.this, MainActivity.class));
+
+                        DialogBox mydialog = new DialogBox();
                        mydialog.show(getSupportFragmentManager(), "Dialog Signup");
                     }
                 }

@@ -1,7 +1,7 @@
 package com.learning.one_pc.easypark;
 
 public class Values {
-    private static double radius = 1.6;
+    private static double radius = 8000;
     public Values(){
 
     }

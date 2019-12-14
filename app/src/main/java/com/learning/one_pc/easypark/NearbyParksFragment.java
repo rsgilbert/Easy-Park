@@ -121,7 +121,7 @@ public class NearbyParksFragment extends Fragment {
 
                                                     @Override
                                                     public void onKeyExited(String key) {
-                                                        myarray.remove(key);
+//                                                        myarray.remove(key);
                                                         adapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1, myarray);
                                                         listview.setAdapter(adapter);
                                                     }
@@ -247,7 +247,9 @@ public class NearbyParksFragment extends Fragment {
                         public void onComplete(@NonNull Task task) {
                             if (task.isSuccessful()) {
                                 Location location = (Location) task.getResult();
-                                myPosition = new LatLng(location.getLatitude(), location.getLongitude());
+                                if(location != null) {
+                                    myPosition = new LatLng(location.getLatitude(), location.getLongitude());
+                                }
                             } else if (!task.isSuccessful()) {
                                 Toast.makeText(getActivity(), "setting location failed", Toast.LENGTH_SHORT).show();
                             }

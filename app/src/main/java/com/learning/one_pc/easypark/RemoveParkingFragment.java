@@ -48,8 +48,8 @@ public class RemoveParkingFragment extends Fragment {
         geoFire = new GeoFire(mRef);
         parksToRemove = new ArrayList<>();
         listview = view.findViewById(R.id.listview);
-        user = mAuth.getCurrentUser();
-        userID = user.getUid();
+//        user = mAuth.getCurrentUser();
+//        userID = user.getUid();
         children = new ArrayList<>();
 
 
@@ -82,10 +82,10 @@ public class RemoveParkingFragment extends Fragment {
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                Object val = dataSnapshot.getValue();
-                if(dataSnapshot.child(userID).getChildren().iterator().hasNext()){
-                    children.add(dataSnapshot.child(userID).getChildren().iterator().next().toString());
-                }
+//                Object val = dataSnapshot.getValue();
+//                if(dataSnapshot.child(userID).getChildren().iterator().hasNext()){
+//                    children.add(dataSnapshot.child(userID).getChildren().iterator().next().toString());
+//                }
             }
 
             @Override

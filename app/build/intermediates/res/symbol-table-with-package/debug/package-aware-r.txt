@@ -1266,6 +1266,7 @@ id login
 id map
 id masked
 id media_actions
+id menu_map
 id message
 id middle
 id mini

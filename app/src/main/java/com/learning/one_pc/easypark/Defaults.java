@@ -1,7 +1,7 @@
 package com.learning.one_pc.easypark;
 
 public class Defaults {
-    private double radius = 1.6;
+    private double radius = 8000;
     public Defaults(){
 
     }

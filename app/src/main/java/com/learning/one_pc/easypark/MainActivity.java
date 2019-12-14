@@ -47,12 +47,12 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser firebaseUser = mAuth.getCurrentUser();
-                if (firebaseUser == null) {
-                    startActivity(new Intent(MainActivity.this, SigninActivity.class));
-                }
+//                if (firebaseUser == null) {
+//                    startActivity(new Intent(MainActivity.this, SigninActivity.class));
+//                }
             }
         };
-        changeFragment(R.id.settings);
+        changeFragment(R.id.nearbyparks);
 
 //
     }
@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity
                 startActivity(new Intent(MainActivity.this, SigninActivity.class));
             }
             return true;
+        } else if(id == R.id.menu_map) {
+            startActivity(new Intent(this, MapActivity.class));
         }
 
         return super.onOptionsItemSelected(item);
@@ -112,14 +114,14 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onStart() {
         super.onStart();
-        mAuth.addAuthStateListener(mAuthListener);
+//        mAuth.addAuthStateListener(mAuthListener);
 
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        mAuth.removeAuthStateListener(mAuthListener);
+//        mAuth.removeAuthStateListener(mAuthListener);
     }
 
     //change fragments
@@ -139,6 +141,10 @@ public class MainActivity extends AppCompatActivity
             }
             case R.id.removepark:{
                 frag = new RemoveParkingFragment();
+                break;
+            }
+            default: {
+                frag = new NearbyParksFragment();
                 break;
             }
         }
